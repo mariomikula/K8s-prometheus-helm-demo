@@ -99,4 +99,4 @@ These need to be installed to start the cluster locally:
    ```
    kubectl port-forward service/mongodb-exporter-prometheus-mongodb-exporter 9216
    ```
-9. Go to the Prometheus UI again (run the port-forwarding from step 5 again) and MongoDB Exporter should be there as Prometheus should have added it by itself using the ServiceMonitor component.
+9. Go to the Prometheus UI again (run the port-forwarding from step 4 again) and MongoDB Exporter should be there as Prometheus should have added it by itself using the ServiceMonitor component.
